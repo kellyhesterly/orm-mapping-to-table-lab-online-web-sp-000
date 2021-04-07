@@ -3,4 +3,6 @@
   #  with DB[:conn]
 
 class Student
+  attr_accessor :name, :grade
+  attr_writer :id
 end
