@@ -27,5 +27,6 @@ class Student
     sql = <<-SQL
       DROP TABLE IF DOES EXISTS students
     SQL
+    DB[:conn].execute(sql)
   end
 end
